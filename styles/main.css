@@ -3,21 +3,39 @@
 
 html {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-box-sizing: border-box;
-overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: hidden;
+  background-image: url(../img/wallpaper.jpg); /* Путь к фоновому изображению */
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 .sticker_star {
-position: relative;
+  position: relative;
+  height: 100vw;
+  width: 100vw;
+}
+.star {
+  position: absolute;
 }
 
-.bluestar {
-width: 50vw;
-transform: rotate(72deg);
-position: absolute;
+.bills {
+  position:relative;
+}
+
+.pineapple {
+  height: 208vh;
+  width: 110vw;
+  top: -114vw;
+  right: -28vw;
+  z-index: -1;
+  position: absolute;
 }
