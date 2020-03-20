@@ -14,7 +14,7 @@ body {
   overflow-y: hidden;
   background-image: url(../img/wallpaper.jpg); /* Путь к фоновому изображению */
   /*background-size: contain;*/
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 
 
@@ -72,7 +72,9 @@ body {
    display: none;
  }
 }
+*/
 
+/*
 @media (min-width: 375px) {
 
   body {
