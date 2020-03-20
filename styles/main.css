@@ -13,8 +13,10 @@ body {
   overflow: hidden;
   overflow-y: hidden;
   background-image: url(../img/wallpaper.jpg); /* Путь к фоновому изображению */
-  background-size: contain;
+  /*background-size: contain;*/
+  background-size: cover;
   background-repeat: no-repeat;
+
 
 }
 
@@ -39,3 +41,56 @@ body {
   z-index: -1;
   position: absolute;
 }
+
+.mango {
+  height: 216vh;
+  width: 46vw;
+  top: -114vw;
+  right: 30vw;
+  z-index: -1;
+  position: absolute;
+}
+
+.kiwi {
+  height: 229vh;
+  width: 143vw;
+  top: -126vw;
+  right: 19vw;
+  z-index: -1;
+  position: absolute;
+}
+/*
+@media (min-width: 320px) {
+
+  body {
+    height:
+  }
+ .bills {
+	display: none;
+ }
+ .sticker_star {
+   display: none;
+ }
+}
+
+@media (min-width: 375px) {
+
+  body {
+    height: 667px;
+    overflow: hidden;
+  }
+ .bills {
+	display: none;
+ }
+ .sticker_star {
+   display: none;
+ }
+ .iphone_8 {
+ z-index: 1;
+ height: 140vw;
+ width: 25vw;
+ position: absolute;
+ right: 67vw;
+ }
+}
+*/
