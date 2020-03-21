@@ -28,6 +28,13 @@ let infiniteLoopAlternate = anime({
   loop: true
 });
 
+let imgs = document.querySelectorAll('img');
+    if (document.documentElement.clientWidth <= 768) {
+      for (let img of[...imgs]) {
+       img .src = document.querySelector('img').src.replace('jpg', 'png');
+      }
+    }
+
 
 /*
 // build scene
