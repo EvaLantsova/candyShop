@@ -1,5 +1,10 @@
 @import "reset.css";
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
 
 html {
   overflow-x: hidden;
@@ -7,15 +12,17 @@ html {
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
-  overflow: hidden;
-  overflow-y: hidden;
-  background-image: url(../img/wallpaper.jpg); /* Путь к фоновому изображению */
-  /*background-size: contain;*/
-  background-size: contain;
+  background-image: url(../img/wallpaper.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+main {
+  overflo w: hidden;
+  overfl ow-y: hidden;
+   /* Путь к фоновому изображению */
+  /*background-size: contain;*/
+  height: 100vh;
 
 
 }
@@ -59,6 +66,10 @@ body {
   z-index: -1;
   position: absolute;
 }
+
+.iphone_8 {
+display: none;
+}
 /*
 @media (min-width: 320px) {
 
@@ -74,25 +85,35 @@ body {
 }
 */
 
-/*
-@media (min-width: 375px) {
 
-  body {
-    height: 667px;
-    overflow: hidden;
-  }
+@media (max-width: 414px) {
+
+
+main {
+  overflow-x: hidden;
+  /*height: 667px;*/
+  background-attach ment: fixed;
+
+}
+
  .bills {
 	display: none;
  }
+
  .sticker_star {
    display: none;
  }
+
+ .iphone_bills {
+   position: relative;
+ }
+
  .iphone_8 {
- z-index: 1;
- height: 140vw;
- width: 25vw;
- position: absolute;
- right: 67vw;
+   display: block;
+   z-index: 1;
+   height: 400vw;
+   width: 70vw;
+   position: absolute;
+   right: 16vw;
  }
 }
-*/

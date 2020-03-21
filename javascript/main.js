@@ -27,3 +27,52 @@ let infiniteLoopAlternate = anime({
   direction: 'alternate',
   loop: true
 });
+
+
+/*
+// build scene
+
+// init controller
+
+var controller = new ScrollMagic.Controller();
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".dynamicContent #loader", triggerHook: "onEnter"})
+				.addTo(controller)
+				.on("enter", function (e) {
+					if (!$(".iphone_8").hasClass(".iphone_8")) {
+						$("#loader").addClass(".iphone_8");
+						if (console){
+							console.log("loading new items");
+						}
+						// simulate ajax call to add content using the function below
+						setTimeout(addBoxes, 1000, 9);
+					}				addTo(controller)
+				.on("enter", function (e) {
+					if (!$(".iphone_8").hasClass(".iphone_8")) {
+						$("#loader").addClass(".iphone_8");
+						if (console){
+							console.log("loading new items");
+						}
+						// simulate ajax call to add content using the function below
+						setTimeout(addBoxes, 1000, 9);
+					}
+				});
+
+// pseudo function to add new content. In real life it would be done through an ajax request.
+function addBill (amount) {
+	for (i=1; i<=amount; i++) {
+		var randomColor = '#'+('00000'+(Math.random()*0xFFFFFF<<0).toString(16)).slice(-6);
+		$("<div></div>")
+			.addClass(".iphone_8")
+			.css("background-color", randomColor)
+			.appendTo(".dynamicContent #content");
+	}
+	// "loading" done -> revert to normal state
+	scene.update(); // make sure the scene gets the new start position
+	$("#loader").removeClass("active");
+}
+
+// add some boxes to start with.
+addBoxes(18);
+*/
