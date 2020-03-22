@@ -152,3 +152,28 @@ main {
 }
 
 }
+
+@media (min-width: 768px) {
+  .pineapple {
+    top: -96vw;
+  }
+  .mango {
+    height: 187vh;
+    width: 91vw;
+    top: -114vw;
+    right: -3vw;
+  }
+  .kiwi {
+    height: 160vh;
+    width:236vw;
+    top: -144vw;
+    right: -27vw;
+  }
+}
+  @media (min-width: 834px) {
+  .kiwi {
+   height: 182vh;
+   width: 240vw;
+   top: -153vw;
+    }
+  }

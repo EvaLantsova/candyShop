@@ -84,7 +84,7 @@ function addBill (amount) {
 addBoxes(18);
 */
 
-/*
+
 window.addEventListener("scroll", populate);
 
-populate(); // init document */
+populate(); // init document 
