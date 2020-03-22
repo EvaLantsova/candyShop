@@ -117,3 +117,38 @@ main {
    right: 16vw;
  }
 }
+
+@media (min-width: 415px) {
+
+  .pineapple {
+    height: 144vh;
+    width: 165vw;
+    top: -114vw;
+    right: -74vw;
+    z-index: -1;
+    position: absolute;
+}
+
+.mango {
+    height: 145vh;
+    width: 71vw;
+    top: -114vw;
+    right: 8vw;
+    z-index: -1;
+    position: absolute;
+}
+
+.kiwi {
+    height: 229vh;
+    width: 366vw;
+    top: -153vw;
+    right: -28vw;
+    z-index: -1;
+    position: absolute;
+}
+
+.iphone_bills {
+  display: none;
+}
+
+}
