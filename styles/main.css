@@ -177,3 +177,24 @@ main {
    top: -153vw;
     }
   }
+
+@media (min-width: 2880px) {
+
+  .star {
+    height: 20vw;
+    width: 20vw;
+  }
+  .mango {
+    height: 206vh;
+    width: 75vw;
+    top: -114vw;
+    right: 13vw;
+  }
+  .kiwi {
+    height: 182vw;
+    width: 208vw;
+    top: -146vw;
+    right: -18vw;
+    transform: rotate (-10deg);
+  }
+}
